@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+/* header and banner */
+.banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 669px;
+    text-align: center;
+
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    padding: 174px 307px 20px 307px;
+}
+
+.banner-sub-title {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.btn-banner {
+    padding: 26px 22px;
+    border-radius: 5px;
+    border-style: none;
+    background: #FF5959;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+/* <!-- section donate today --> */
+.donate-today {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 45px;
+    color: #121212;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+
+.donate-description {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.amount-taka {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.taka-1 {
+    padding: 44px 23px;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #28be99;
+}
+
+.taka-2 {
+    padding: 44px 23px;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #be9b28;
+}
+
+.taka-3 {
+    padding: 44px 23px;
+    color: #FF5959;
+    font-size: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background: #FEE;
+}
+
+.taka-4 {
+    padding: 44px 23px;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #9b28be;
+}
+
+.taka-5 {
+    padding: 44px 23px;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #2858be;
+}
+
+/* other amount section */
+.other {
+    text-align: center;
+}
+
+input {
+    border-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B3B3B3;
+    padding: 20px;
+    text-align: center;
+}
+
+.underline {
+    margin-bottom: 30px;
+    width: 765px;
+    height: 0px;
+    margin-left: 550px;
+}
+
+/* Donate plan */
+.donate {
+    text-align: center;
+}
+
+.donate-title {
+    font-size: 45px;
+    color: #121212;
+    font-weight: 700;
+    margin-top: 130PX;
+    margin-bottom: 20PX;
+}
+
+.donate-description {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skill-container {
+    display: flex;
+    /* text-align: center; */
+    gap: 24px;
+    /* align-items: center; */
+    margin-bottom: 111px;
+}
+
+.skill-1 {
+    width: 360px;
+    height: 300px;
+    gap: 24px;
+    padding: 30px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+    margin-left: 290px;
+    text-align: center;
+
+}
+
+.skill-2 {
+    width: 360px;
+    height: 300px;
+    gap: 24px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10)
+}
+
+.skill-3 {
+    width: 360px;
+    height: 300px;
+    gap: 24px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: #FFF4D6;
+}
+
+.skill-title {
+    font-size: 24px;
+    /* text-align: center; */
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #121212;
+    font-weight: 600;
+}
+
+/* How to donate */
+.how-to-donate {
+    display: flex;
+}
+
+.how-to-donate2 {
+    display: flex;
+}
+
+.how-to-donate-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.how-to-donate-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.how-to {
+    padding: 30px;
+    width: 360px;
+    height: 300px;
+    gap: 24px;
+    margin-left: 500px;
+    margin-right: 70px;
+}
+
+.how-to2 {
+    padding: 30px;
+    width: 360px;
+    height: 300px;
+    gap: 24px;
+    margin-left: 60px;
+    margin-right: 170px;
+}
+
+.how-to-donate-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.how-to-donate-content2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.how-to-img {
+    margin-bottom: 47px;
+}
+
+.how-to-img2 {
+    margin-left: 530px;
+    margin-bottom: 130px;
+}
+
+/* Get My Updates */
+.get-my-Updates {
+    text-align: center;
+}
+
+.updates-title {
+    color: #121212;
+    font-size: 45px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.updates-description {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.color-border {
+    padding: 76px 188px 76px 188px;
+    background: #FFF4D6;
+    width: 809px;
+    margin-left: 320px;
+    align-items: center;
+    margin-bottom: 130px;
+    justify-content: space-around;
+
+}
+
