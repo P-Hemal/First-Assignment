@@ -382,7 +382,7 @@ input {
         text-align: center;
         padding: 174px 5px 20px 5px;
     }
-    
+
 
     .amount-taka div {
         flex-direction: column;
@@ -396,10 +396,13 @@ input {
     }
 
     .amount-taka {
-        grid-template-columns:repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         display: grid;
-        }
-        .amount-taka button{
-            margin-bottom: 15px;
-            align-items: end;margin-left: 110px;
+    }
+
+    .amount-taka button {
+        margin-bottom: 15px;
+        align-items: end;
+        margin-left: 110px;
+    }
 }
