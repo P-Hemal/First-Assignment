@@ -60,7 +60,7 @@
 }
 
 .amount-taka {
-    text-align:center;
+    text-align: center;
     margin-bottom: 60px;
 }
 
@@ -351,7 +351,7 @@ input {
     .how-to-img2 {
         margin-left: 0;
         margin-top: 60px;
-        width: 100%;
+
 
     }
 
@@ -378,17 +378,13 @@ input {
         border-radius: 5px;
     }
 
-    .banner{
-        text-align: left;
-        
-
+    .banner-title {
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+        padding: 174px 5px 20px 5px;
     }
-
-    .taka-1,
-    .taka-2,
-    .taka-3,
-    .taka-4,
-    .taka-5 {
+    .amount-taka div{
         flex-direction: column;
     }
 
@@ -398,7 +394,6 @@ input {
         height: 0px;
         margin-left: 60px;
     }
-    .amount-taka{
-        
-    }
+
+    .amount-taka {}
 }
