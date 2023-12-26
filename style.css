@@ -60,7 +60,7 @@
 }
 
 .amount-taka {
-    text-align: center;
+    text-align:center;
     margin-bottom: 60px;
 }
 
@@ -283,7 +283,6 @@ input {
 .updates-title {
     color: #121212;
     font-size: 45px;
-    font-size: 45px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
@@ -307,3 +306,99 @@ input {
 
 }
 
+@media screen and (max-width: 576px) {
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .skill-1,
+    .skill-2,
+    .skill-3 {
+        margin: 0;
+        padding: 30px 00px;
+    }
+
+    .how-to-donate,
+    .how-to-donate2 {
+        flex-direction: column-reverse;
+    }
+
+    .how-to {
+        margin-left: 0px;
+        margin-bottom: 280px;
+        margin-top: -20px;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .how-to2 {
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .how-to button {
+        margin-bottom: 10px;
+    }
+
+    .how-to-img {
+        width: 100%;
+    }
+
+    .how-to-img2 {
+        margin-left: 0;
+        margin-top: 60px;
+        width: 100%;
+
+    }
+
+    .how-to2 {
+        margin: 0;
+    }
+
+    .color-border {
+        padding: 0px 0px 0px 0px;
+        /* background:purple; */
+        width: 0px;
+        margin-left: 40px;
+        margin-right: 0px;
+        align-items: center;
+        margin-bottom: 130px;
+    }
+
+    .btn-banner[type="submit"] {
+        margin: 15px 0px 0px 72px;
+    }
+
+    input[type="Email"] {
+        border: 2px solid #FF5959;
+        border-radius: 5px;
+    }
+
+    .banner{
+        text-align: left;
+        
+
+    }
+
+    .taka-1,
+    .taka-2,
+    .taka-3,
+    .taka-4,
+    .taka-5 {
+        flex-direction: column;
+    }
+
+    .underline {
+        margin-bottom: 30px;
+        width: 270px;
+        height: 0px;
+        margin-left: 50px;
+    }
+    .amount-taka{
+        
+    }
+}
