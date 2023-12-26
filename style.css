@@ -351,8 +351,6 @@ input {
     .how-to-img2 {
         margin-left: 0;
         margin-top: 60px;
-
-
     }
 
     .how-to2 {
@@ -380,11 +378,13 @@ input {
 
     .banner-title {
         font-size: 40px;
-        font-weight: 200;
+        font-weight: 10px;
         text-align: center;
         padding: 174px 5px 20px 5px;
     }
-    .amount-taka div{
+    
+
+    .amount-taka div {
         flex-direction: column;
     }
 
@@ -395,5 +395,11 @@ input {
         margin-left: 60px;
     }
 
-    .amount-taka {}
+    .amount-taka {
+        grid-template-columns:repeat(2, 1fr);
+        display: grid;
+        }
+        .amount-taka button{
+            margin-bottom: 15px;
+            align-items: end;margin-left: 110px;
 }
